@@ -27,7 +27,8 @@ This program is designed to manage form data using React and Redux. The main fun
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory in your terminal.
-3. Install dependencies using `npm install`.
+3. Run the command `npm install`
+4. Install dependencies using `npm install`.
 
 ## Usage
 
