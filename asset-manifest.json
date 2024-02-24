@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bonds_India/static/css/main.227735a5.css",
+    "main.js": "/Bonds_India/static/js/main.d81069bd.js",
+    "static/js/453.eb13589a.chunk.js": "/Bonds_India/static/js/453.eb13589a.chunk.js",
+    "index.html": "/Bonds_India/index.html",
+    "main.227735a5.css.map": "/Bonds_India/static/css/main.227735a5.css.map",
+    "main.d81069bd.js.map": "/Bonds_India/static/js/main.d81069bd.js.map",
+    "453.eb13589a.chunk.js.map": "/Bonds_India/static/js/453.eb13589a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.227735a5.css",
+    "static/js/main.d81069bd.js"
+  ]
+}
