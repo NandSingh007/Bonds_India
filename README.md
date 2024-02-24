@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Form Data Management with Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This program is designed to manage form data using React and Redux. The main functionality includes a page with four input fields where users can enter data and submit it using a submit button. Upon submission, the entered data is displayed in a table below the form. Additionally, there is another page that displays the same table with existing added data. Redux is utilized for state management across the application.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Form Page**:
+  - Four input fields: username, email address, password, and role.
+  - Users are required to fill all fields accurately to activate the submit button.
+  - Upon submission, the entered data is stored in the Redux store.
+- **Table Display**:
+  - The submitted data is displayed in a table below the form.
+  - The table includes columns for username, email address, password, and role.
+- **Redux Integration**:
+  - Redux is used for state management to store and retrieve form data.
+  - Redux actions and reducers handle the storage and retrieval of data.
+- **Navigation**:
+  - The application utilizes React Router for navigation between pages.
+  - There are two pages: the form page and the table display page.
+- **Error Handling**:
+  - Users are prompted to fill all fields accurately before submission.
+  - Password validation ensures the password is at least 8 characters long.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Install dependencies using `npm install`.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Run the application using `npm start`.
+2. Access the application in your browser at `http://localhost:3000`.
+3. Fill the form with accurate information and submit.
+4. View the submitted data in the table below the form.
+5. Navigate to the table display page to see the existing data.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Redux
+- React Router
+- Axios
+- HTML/CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Folder Structure
