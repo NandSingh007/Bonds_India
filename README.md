@@ -46,4 +46,3 @@ This program is designed to manage form data using React and Redux. The main fun
 - Axios
 - HTML/CSS
 
-## Folder Structure
